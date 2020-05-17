@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Buzzr</string>
+    <!--
+            === Errors ===
+        For each FailureReason x, the following strings should exist:
+            1.] fail_title_x
+            2.] fail_message_x
+    -->
+    <string name="coj_create_alarm">Create\nGroup</string>
+    <string name="coj_join_alarm">Join\nGroup</string>
+    <string name="default_loading_message">dw.. im working on it!!</string>
+    <string name="menu_leave_group">Leave Alarm</string>
+    <string name="menu_change_alarm">Change Group</string>
+    <!--        === Title    -->
+    <string name="fail_title_None">THIS IS NOT AN ERROR!</string>
+    <string name="fail_title_Unknown">DON\'T ASK ME?!</string>
+    <string name="fail_title_AccountNotFound">WHO ARE YOU!!</string>
+    <string name="fail_title_AlarmNotFound">WHAT ALARM IS THIS?</string>
+    <string name="fail_title_AlarmAlreadyExists">DO NOT PLAGIARIZE!</string>
+    <string name="fail_title_ConnectionIssue">NO INTERNET!!</string>
+    <string name="fail_title_AlarmIsRinging">ALARM IS RINGING!!</string>
+    <!--        === Message    -->
+    <string name="fail_message_None">Not a failure! If you see this, please contact the developers or just delete this garbage.</string>
+    <string name="fail_message_Unknown">We don\'t know what happened.. I\'m sorry dad! </string>
+    <string name="fail_message_AccountNotFound">We could not sign you in to our service. Ask your Mom to wake you up.</string>
+    <string name="fail_message_AlarmNotFound">We cannot find the alarm you are looking for.. someone gave you a wrong id.. yikes</string>
+    <string name="fail_message_AlarmAlreadyExists">Yeah, that name for an alarm is already taken. Sorry! Please don\'t join that group.. yes this is a security flaw 😬</string>
+    <string name="fail_message_ConnectionIssue">I\'m not sure if anyone told you.. but you need to be connected to the internet.</string>
+    <string name="fail_message_AlarmIsRinging">Yeah.. so you can\'t do anything while the alarm rings.</string>
+    <!-- OTHER -->
+    <string name="error_user_accept">Understood.</string>
+    <string name="placeholder">placeholder</string>
+    <string name="placeholder_time">11:50</string>
+    <string name="placeholder_small">AM</string>
+    <string name="alarm_members_header">Gang Gang</string>
+    <string name="stop_alarm_notifications">Stop Alarm Notifications</string>
+    <string name="service_notification_title">Buzzr Co-op Alarm!</string>
+    <string name="service_notification_default_message">Buzz Buzz! You are alone… without a group I mean.</string>
+    <string name="defaultTimeZone">+00:00</string>
+    <string name="wakeup_notification">[%s] Waking up at %s with your group!</string>
+    <string name="alarm_notification">WAKE UP! WAKE UP! WAKE UP!</string>
+    <string name="ring_awake_ask">ARE YOU AWAKE?</string>
+    <string name="ring_awake_declare">I AM AWAKE!</string>
+    <string name="ring_ok_wait">Alright! Wait for your friends now.</string>
+    <string name="ring_awake_error">We couldn\'t reach our server so we\'ve disabled the alarm just in case.</string>
+    <string name="ring_emergency_stop">pls.. stop..</string>
+    <string name="ring_emergency_stop_on">ok.. we stopped the sound.. but wait for your friends</string>
+    <string name="debug_menu_fake_alarm">Sound the Alarm!</string>
+    <string name="content_description_google_logo">Google Logo</string>
+    <string name="debug_menu_reset_alarm">Reset Alarm Config</string>
+    <string name="debug_menu_header">Debug</string>
+</resources>

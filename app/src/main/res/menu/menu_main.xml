@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="us.aryanmia.buzzr.activities.MainActivity">
+
+    <group android:id="@+id/real" android:visible="true">
+        <item
+                android:id="@+id/main_menu_leave"
+                android:title="@string/menu_leave_group"
+                app:showAsAction="collapseActionView" />
+        <item
+                android:id="@+id/main_menu_change_alarm"
+                android:title="@string/menu_change_alarm"
+                app:showAsAction="collapseActionView" />
+    </group>
+
+    <item android:title="@string/debug_menu_header">
+        <menu>
+            <item
+                android:id="@+id/main_menu_fake_alarm"
+                android:checkable="true"
+                android:title="@string/debug_menu_fake_alarm"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/main_menu_reset_alarm"
+                android:title="@string/debug_menu_reset_alarm"
+                app:showAsAction="collapseActionView" />
+        </menu>
+    </item>
+
+</menu>

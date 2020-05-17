@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/slant_bg"
+        tools:context=".activities.CreateOrJoinActivity">
+
+    <TextView
+            android:id="@+id/coj_new_alarm"
+            android:background="@android:color/transparent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/coj_join_alarm"
+
+            android:text="@string/coj_create_alarm"
+            android:padding="32dp"
+            android:textSize="48sp"
+            android:textColor="@android:color/white"
+
+            android:layout_height="0dp"
+            android:layout_width="match_parent">
+    </TextView>
+
+    <TextView
+            android:id="@+id/coj_join_alarm"
+            android:background="@android:color/transparent"
+            app:layout_constraintTop_toBottomOf="@id/coj_new_alarm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:text="@string/coj_join_alarm"
+            android:gravity="end|bottom"
+            android:padding="32dp"
+            android:textSize="48sp"
+            android:textColor="@android:color/white"
+
+            android:layout_height="0dp"
+            android:layout_width="match_parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

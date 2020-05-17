@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="us.aryanmia.buzzr">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <!--    <uses-feature-->
+    <!--        android:name="android.hardware.camera2"-->
+    <!--        android:required="true" />-->
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <!-- Login -->
+        <activity
+                android:name=".activities.LoginActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Main -->
+        <activity
+                android:name=".activities.MainActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"/>
+
+        <!-- Join or Create Alarm -->
+        <activity
+                android:name=".activities.CreateOrJoinActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"/>
+
+        <!-- Alarm Ring -->
+        <activity
+                android:name=".activities.AlarmRingActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"/>
+
+        <!-- BuzzrAlarm Service -->
+        <service
+                android:name=".activities.BuzzrAlarmService"/>
+
+    </application>
+
+</manifest>
