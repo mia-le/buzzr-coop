@@ -10,5 +10,5 @@ Buzzr is a co-operative alarm so your alarm turns off **only** when the last per
 ![Code Diagram](/screens/buzzr-diagram.png)
 
 ### Credits
-- **Mia Le**: Database implementation and UI Design
-- **Aryan Mann**: Alarm Management & Repo Owner
+- **Mia Le**: Activity, Database, and UI Design
+- **Aryan Mann**: Alarm implementation & Repo Owner
